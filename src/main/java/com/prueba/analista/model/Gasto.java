@@ -27,12 +27,4 @@ public class Gasto {
     public void setMonto(BigDecimal monto) {
         this.monto = monto;
     }
-
-    @Override
-    public String toString() {
-        return "Gasto{" +
-                "fecha=" + fecha +
-                ", monto=" + monto +
-                '}';
-    }
 }

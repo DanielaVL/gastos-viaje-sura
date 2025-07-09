@@ -39,14 +39,4 @@ public class Empleado {
     public void setGastos(List<Gasto> gastos) {
         this.gastos = gastos;
     }
-
-    // Método toString para representación en texto
-    @Override
-    public String toString() {
-        return "Empleado{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", gastos=" + gastos +
-                '}';
-    }
 }

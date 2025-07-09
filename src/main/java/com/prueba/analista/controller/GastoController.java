@@ -1,6 +1,6 @@
 package com.prueba.analista.controller;
 
-import com.prueba.analista.dto.EmpleadoGastosDTO;
+import com.prueba.analista.dto.GastoTotalDTO;
 import com.prueba.analista.model.Empleado;
 import com.prueba.analista.service.GastoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +16,9 @@ public class GastoController {
     private GastoService gastoService;
 
     @PostMapping("/resumen")
-    public List<EmpleadoGastosDTO> resumenGastos(@RequestBody List<Empleado> empleados) {
-        return gastoService.obtenerResumenGastos(empleados);
-    }
+    public GastoTotalDTO resumenGastos(@RequestBody List<Empleado> empleados) {
+    return gastoService.generarResumenGastos(empleados);
+}
 
 }
 
