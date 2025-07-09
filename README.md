@@ -1,6 +1,6 @@
 # 📊 Prueba Analista de Desarrollo de Tecnología en Formación
 
-**Objetivo**: 
+**Objetivo:** 
 Este proyecto es una API REST desarrollada en Java con Spring Boot que permite gestionar los gastos de viaje de una lista de empleados. Entre sus funcionalidades se incluyen el cálculo del gasto total acumulado entre todos los empleados, la visualización de los gastos individuales por mes, y el cálculo de los totales mensuales por empleado con IVA incluido. Además, la API determina si dichos gastos mensuales son asumidos por el empleado o por **SURA**, según la siguiente lógica:
 
 > Si el total mensual de gastos (incluyendo IVA del 19%) por empleado supera $1.000.000 COP, los gastos son asumidos por el **empleado**. De lo contrario, son asumidos por **SURA**.
