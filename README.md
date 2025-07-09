@@ -1,10 +1,10 @@
 # 📊 Prueba Analista de Desarrollo de Tecnología en Formación
 
-## 🎯 Objetivo
-
-Este proyecto es una API REST desarrollada en Java con Spring Boot que permite gestionar los gastos de viaje de una lista de empleados. Entre sus funcionalidades se incluyen el cálculo del gasto total acumulado entre todos los empleados, la visualización de los gastos individuales por mes, y el cálculo de los totales mensuales por empleado con IVA incluido. Además, la API determina si dichos gastos mensuales son asumidos por el empleado o por **SURA**, según la siguiente lógica:
+**Objetivo**: Este proyecto es una API REST desarrollada en Java con Spring Boot que permite gestionar los gastos de viaje de una lista de empleados. Entre sus funcionalidades se incluyen el cálculo del gasto total acumulado entre todos los empleados, la visualización de los gastos individuales por mes, y el cálculo de los totales mensuales por empleado con IVA incluido. Además, la API determina si dichos gastos mensuales son asumidos por el empleado o por **SURA**, según la siguiente lógica:
 
 > Si el total mensual de gastos (incluyendo IVA del 19%) por empleado supera $1.000.000 COP, los gastos son asumidos por el **empleado**. De lo contrario, son asumidos por **SURA**.
+
+</br>
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -14,6 +14,8 @@ Este proyecto es una API REST desarrollada en Java con Spring Boot que permite g
 - Junit 5 (para pruebas unitarias)
 - Patrón de diseño Modelo - Controlador - Servicio (MCS)
 - Postman para pruebas de endpoints
+
+</br>
 
 ## 🚀 Cómo ejecutar el proyecto
 
@@ -32,6 +34,7 @@ mvn spring-boot:run
 
 Esto levantará la API en `http://localhost:8080`.
 
+</br>
 
 ## 🔌 Endpoints disponibles
 
@@ -92,6 +95,7 @@ POST http://localhost:8080/api/gastos/resumen
   ]
 }
 ```
+</br>
 
 ## ✅ Pruebas unitarias
 Este proyecto incluye pruebas unitarias para validar la lógica de negocio en diferentes escenarios clave.
@@ -115,6 +119,8 @@ Deberías ver una salida como:
 [INFO] BUILD SUCCESS
 ```
 
+</br>
+
 ## 📁 Estructura del proyecto
 
 ```lua
@@ -131,10 +137,14 @@ src/
 │       └── service/            --> Pruebas unitarias
 ```
 
+</br>
+
 > [!IMPORTANT]
 > **Nota 1:** Asegúrate de tener Java 17 y Maven instalados en tu máquina para ejecutar el proyecto correctamente. Puedes verificar la versión de Java con `java -version` y la de Maven con `mvn -v`.
 >
 > **Nota 2:** Muchas gracias por la oportunidad de presentar esta prueba técnica. Fue una experiencia valiosa.
+
+</br>
 
 ## 👩🏽‍💻 Autora
 
