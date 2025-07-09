@@ -6,7 +6,6 @@ Este proyecto es una API REST desarrollada en Java con Spring Boot que permite g
 
 > Si el total mensual de gastos (incluyendo IVA del 19%) por empleado supera $1.000.000 COP, los gastos son asumidos por el **empleado**. De lo contrario, son asumidos por **SURA**.
 
----
 ## 🛠️ Tecnologías utilizadas
 
 - Java 17.0.12
@@ -15,7 +14,6 @@ Este proyecto es una API REST desarrollada en Java con Spring Boot que permite g
 - Junit 5 (para pruebas unitarias)
 - Patrón de diseño Modelo - Controlador - Servicio (MCS)
 - Postman para pruebas de endpoints
----
 
 ## 🚀 Cómo ejecutar el proyecto
 
@@ -34,7 +32,6 @@ mvn spring-boot:run
 
 Esto levantará la API en `http://localhost:8080`.
 
----
 
 ## 🔌 Endpoints disponibles
 
@@ -95,7 +92,6 @@ POST http://localhost:8080/api/gastos/resumen
   ]
 }
 ```
----
 
 ## ✅ Pruebas unitarias
 Este proyecto incluye pruebas unitarias para validar la lógica de negocio en diferentes escenarios clave.
@@ -118,7 +114,6 @@ Deberías ver una salida como:
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 ```
----
 
 ## 📁 Estructura del proyecto
 
@@ -135,14 +130,11 @@ src/
 │   └── java/com/prueba/analista/
 │       └── service/            --> Pruebas unitarias
 ```
----
 
 > [!IMPORTANT]
 > **Nota 1:** Asegúrate de tener Java 17 y Maven instalados en tu máquina para ejecutar el proyecto correctamente. Puedes verificar la versión de Java con `java -version` y la de Maven con `mvn -v`.
-
+>
 > **Nota 2:** Muchas gracias por la oportunidad de presentar esta prueba técnica. Fue una experiencia valiosa.
-
----
 
 ## 👩🏽‍💻 Autora
 
