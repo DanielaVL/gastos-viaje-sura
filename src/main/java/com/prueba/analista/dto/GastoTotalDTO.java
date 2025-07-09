@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class GastoTotalDTO {
-    private BigDecimal totalGeneral;
-    private List<EmpleadoResumenDTO> empleados;
+    private BigDecimal totalGeneral; // Total general de gastos de todos los empleados
+    private List<EmpleadoResumenDTO> empleados; // Lista de resúmenes de gastos por empleado
 
     // Constructor vacío
     public GastoTotalDTO() {

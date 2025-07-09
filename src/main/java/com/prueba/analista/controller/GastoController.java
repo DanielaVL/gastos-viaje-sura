@@ -17,8 +17,7 @@ public class GastoController {
 
     @PostMapping("/resumen")
     public GastoTotalDTO resumenGastos(@RequestBody List<Empleado> empleados) {
-    return gastoService.generarResumenGastos(empleados);
-}
+        return gastoService.generarResumenGastos(empleados);
+    }
 
 }
-

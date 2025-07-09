@@ -7,7 +7,7 @@ public class Empleado {
     private String nombre; // Nombre del empleado
     private List<Gasto> gastos; // Lista de gastos del empleado
 
-    //Constructor
+    // Constructor
     public Empleado(int id, String nombre, List<Gasto> gastos) {
         this.id = id;
         this.nombre = nombre;
@@ -15,7 +15,6 @@ public class Empleado {
     }
 
     // Getters y Setters
-
     public int getId() {
         return id;
     }
